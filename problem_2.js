@@ -5,6 +5,7 @@ var lastNum = fibseq[fibseq.length-1];
 var secondLastNum = fibseq[fibseq.length-2];
 
 while (lastNum < 4000000) {
+  debugger
   fibseq.push(lastNum + secondLastNum);
   lastNum = fibseq[fibseq.length-1];
   secondLastNum = fibseq[fibseq.length-2];
